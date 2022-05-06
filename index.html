@@ -1,44 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Calculadora</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Transparente 💻</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="bg-pan-right">
-    <div class="grid-container">
-        <div class="output">
-            <div data-previous-operand class="previous-operand"></div>
-            <div data-current-operand class="current-operand"></div>
-        </div>
-        <button data-all-clear class="span-two">AC</button>
-        <button data-delete>DEL</button>
-        <button data-operator class="operator">÷</button>
-        <button data-number>1</button>
-        <button data-number>2</button>
-        <button data-number>3</button>
-        <button data-operator class="operator">*</button>
-        <button data-number>4</button>
-        <button data-number>5</button>
-        <button data-number>6</button>
-        <button data-operator class="operator">+</button>
-        <button data-number>7</button>
-        <button data-number>8</button>
-        <button data-number>9</button>
-        <button data-operator class="operator">-</button>
-        <button data-number class="span-two">.</button>
-        <button data-number>0</button>
-        <button data-equals class="operator">=</button>
+<body class="kenburns-top">
+    <div class="container">
 
+
+        <form class="calculator" name="calc">
+
+
+
+
+            <div data-previous-operand class="value new"></div>
+            <div data-current-operand class="value"></div>
+
+            <span data-all-clear class="num ">AC</span>
+            <span data-delete class="num ">DEL</span>
+            <span data-operator class="num">÷</span>
+            <span data-operator class="num">x</span>
+            <span data-number class="num">7</span>
+            <span data-number class="num">8</span>
+            <span data-number class="num">9</span>
+            <span data-operator class="num">-</span>
+            <span data-number class="num">4</span>
+            <span data-number class="num">5</span>
+            <span data-number class="num">6</span>
+            <span data-operator class="num plus">+</span>
+            <span data-number class="num">1</span>
+            <span data-number class="num">2</span>
+            <span data-number class="num">3</span>
+            <span data-number class="num">0</span>
+            <span data-number class="num">00</span>
+            <span data-number class="num">.</span>
+            <span data-equals class="num equal">=</span>
+
+
+
+        </form>
     </div>
-    <script src="scripts.js"></script>
+
+    <script src="script/index.js"></script>
 </body>
 
 </html>
